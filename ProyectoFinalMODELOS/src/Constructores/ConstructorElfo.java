@@ -16,7 +16,7 @@ public class ConstructorElfo extends ConstructorPersonaje{
 
     @Override
     public void construirPersonaje() {
-        p = new Elfo(300 , 100, 0, 64) ;
+        p = new Elfo(300 , 100, 0, 64, "Elfo") ;
     }
 
     @Override

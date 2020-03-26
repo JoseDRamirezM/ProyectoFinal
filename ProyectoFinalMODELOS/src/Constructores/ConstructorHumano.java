@@ -16,7 +16,7 @@ public class ConstructorHumano extends ConstructorPersonaje {
 
     @Override
     public void construirPersonaje() {
-        p = new Humano(300 , 100, 0, 64);
+        p = new Humano(300 , 100, 0, 64, "Humano");
     }
 
     @Override
